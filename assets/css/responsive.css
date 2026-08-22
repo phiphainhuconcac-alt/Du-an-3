@@ -1,6 +1,6 @@
 /* PC */
 @media (min-width: 992px) {
-  .mobile-header{
+  .mobile-header {
     display: none;
   }
 }
@@ -79,17 +79,61 @@
     margin-top: 25px;
     flex-direction: column;
   }
-  #navbar__list--mobile{
+  #navbar__list--mobile {
     margin-top: 25px;
   }
 
-  .navbar__link{
+  .navbar__link {
     display: block;
     font-size: 2rem;
   }
 
-  .navbar__link:hover{
+  .navbar__link:hover {
     background-color: #00ffff37;
+  }
+
+  /* hero */
+  .hero{
+    /* flex-direction:column-reverse; */
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .hero__content{
+    order: 2;
+  }
+
+  .hero__media{
+    order: 1;
+  }
+
+  .hero__content{
+    width: 80%;
+    text-align: center;
+    margin: 22px auto;
+  }
+
+  .hero__row{
+    justify-content: center;
+  }
+
+  /* service */
+  .service__row{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .service-img{
+    width: 100%;
+  }
+
+  .service__list{
+    text-align: center;
+  }
+
+  .service-item{
+    width: 90%;
+    text-align: start;
   }
 }
 
@@ -101,8 +145,7 @@
 }
 
 /* tạm ẩn phần không liên quan */
-.hero,
-.footer,
-main {
+
+.footer{
   display: none;
 }
